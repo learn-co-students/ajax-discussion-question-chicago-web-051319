@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   fetchData();
 
-  const button = 
   document.getElementsByClassName('btn-primary')[0].addEventListener('click', function(){
     fetchData();
   });
